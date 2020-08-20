@@ -18,14 +18,17 @@ struct ContentView: View {
                     
                 Text("30°")
                     .font(.system(size: 44))
-                    .fontWeight(.thin)
+                    .fontWeight(.bold)
                 
                 Spacer()
                 
                 Image(systemName: "sun.max.fill")
+                    .foregroundColor(.yellow)
+
                 
                 Text("Sunny")
                     .frame(width: 150, height: 20, alignment: .leading)
+                
                 Text("H:30° L:07°")
             }
             .padding()
